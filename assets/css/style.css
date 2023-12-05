@@ -1,0 +1,110 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(0deg, rgb(6, 5, 34) 30%, rgb(6, 20, 52));
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: inherit;
+}
+
+.landingImg-card {
+    margin: 3rem 0 2.5rem 0;
+    position: relative;
+}
+
+.landingImg-card .langingimg {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-teal-500 {
+    color: rgba(20, 184, 166, 1);
+}
+
+.text-blue-100 {
+    color: rgba(235, 248, 255, 1);
+}
+
+.text-slate-100 {
+    color: rgba(241, 245, 249, 1);
+}
+
+.text-slate-400 {
+    color: rgba(148, 163, 184, 1);
+}
+
+.text-slate-300 {
+    color: rgba(203, 213, 225, 1);
+}
+
+.text-indigo-600 {
+    color: rgba(79, 70, 229, 1);
+}
+
+.text-amber-600 {
+    color: rgba(217, 119, 6, 1);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.leading-none {
+    line-height: 1;
+}
+
+.leading-relaxed {
+    max-width: 54rem;
+    line-height: 1.625;
+    padding: 64px;
+    margin-top: 16px;
+    margin: auto;
+}
+
+.nav-buttons {
+    border-radius: 30px !important;
+}
+
+.nav-buttons.docbtn {
+    background: rgba(124, 45, 18, 0.3);
+}
+
+.nav-buttons.showbtn {
+    background: rgba(136, 19, 55, 0.3);
+    margin-left: 2rem;
+}
+
+.nav-buttons.betaBtn {
+    background: rgba(6, 78, 59, 0.3);
+    margin-right: 2rem;
+}
+
+.nav-buttons.signInbtn {
+    background: rgba(113, 63, 18, 0.3);
+}
+
+.nav-buttons.docbtn:hover {
+    background: rgba(124, 45, 18, 0.6);
+}
+
+.nav-buttons.showbtn:hover {
+    background: rgba(136, 19, 55, 0.6);
+}
+
+.nav-buttons.betaBtn:hover {
+    background: rgba(6, 78, 59, 0.6);
+}
+
+.nav-buttons.signInbtn:hover {
+    background: rgba(113, 63, 18, 0.6);
+}
+
